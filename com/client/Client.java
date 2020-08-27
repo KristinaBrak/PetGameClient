@@ -6,4 +6,6 @@ public interface Client {
     void send(String input);
 
     void close();
+
+    void getResponse();
 }
